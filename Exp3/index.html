@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 3 - Student Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Grading System</h1>
+
+    <label>Student Name</label>
+    <input type="text" id="studentName" placeholder="Enter Student Name">
+
+    <label>PRN Number</label>
+    <input type="text" id="prn" placeholder="Enter PRN">
+
+    <label>Marks (Out of 100)</label>
+    <input type="number" id="marks" placeholder="Enter Marks">
+
+    <button onclick="calculateGrade()">
+        Calculate Grade
+    </button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
