@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Experiment 2 - Billing Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Billing Calculator</h1>
+
+    <label>Customer Name</label>
+    <input type="text" id="customerName" placeholder="Enter Customer Name">
+
+    <label>Product Name</label>
+    <input type="text" id="productName" placeholder="Enter Product Name">
+
+    <label>Quantity</label>
+    <input type="number" id="quantity" placeholder="Enter Quantity">
+
+    <label>Price per Item (₹)</label>
+    <input type="number" id="price" placeholder="Enter Price">
+
+    <button onclick="generateBill()">
+        Generate Bill
+    </button>
+
+    <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
