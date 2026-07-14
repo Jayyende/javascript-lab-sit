@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Experiment 1</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>JavaScript Experiment 1</h1>
+
+<h2 id="welcome"></h2>
+
+<button onclick="inlineMessage()">
+
+Inline JavaScript
+
+</button>
+
+<br><br>
+
+<button id="internalBtn">
+
+Internal JavaScript
+
+</button>
+
+<script>
+
+document.getElementById("internalBtn").onclick=function(){
+
+alert("Internal JavaScript Executed!");
+
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
