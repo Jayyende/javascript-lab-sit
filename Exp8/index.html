@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 8 - Gym Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Gym Admission Form</h1>
+
+<form id="gymForm">
+
+<label>Full Name</label>
+<input type="text"
+id="name"
+placeholder="Enter Full Name"
+oninput="validateName()">
+<span id="nameError"></span>
+
+<label>Age</label>
+<input type="number"
+id="age"
+placeholder="Enter Age"
+oninput="validateAge()">
+<span id="ageError"></span>
+
+<label>Email</label>
+<input type="email"
+id="email"
+placeholder="Enter Email"
+oninput="validateEmail()">
+<span id="emailError"></span>
+
+<label>Mobile Number</label>
+<input type="text"
+id="mobile"
+placeholder="Enter Mobile Number"
+maxlength="10"
+oninput="validateMobile()">
+<span id="mobileError"></span>
+
+<label>Select Membership</label>
+
+<select id="membership">
+
+<option>1 Month</option>
+
+<option>3 Months</option>
+
+<option>6 Months</option>
+
+<option>12 Months</option>
+
+</select>
+
+<button type="button"
+onclick="submitForm()">
+
+Submit
+
+</button>
+
+</form>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
