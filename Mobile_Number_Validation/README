@@ -1,0 +1,264 @@
+# 📱 Mobile Number Validation using jQuery
+
+A modern and responsive web application that validates **Indian Mobile Numbers** using **jQuery** and **Regular Expressions (Regex)**. The application provides **real-time validation**, **operator detection (demo)**, **validation details dashboard**, and a clean user interface.
+
+---
+
+## 🚀 Project Overview
+
+This project demonstrates the implementation of **jQuery-based form validation** for Indian mobile numbers. It validates user input instantly, provides visual feedback, displays validation details, and prevents invalid entries.
+
+The application is designed as a beginner-friendly yet professional mini web application suitable for JavaScript laboratory work and GitHub portfolio projects.
+
+---
+
+## ✨ Features
+
+- 📱 Indian Mobile Number Validation
+- ⚡ Real-Time Validation while Typing
+- 🔢 Allows Only Numeric Input
+- ✂️ Maximum 10 Digits Restriction
+- ✅ Success & Error Messages
+- 🟢 Green Border for Valid Input
+- 🔴 Red Border with Shake Animation for Invalid Input
+- 📊 Validation Details Dashboard
+- 📶 Mobile Operator Detection (Demo)
+- 🌍 Country Information
+- 🕒 Validation Timestamp
+- 📝 Regex-based Validation
+- ⚙️ jQuery Event Handling
+- 📱 Responsive User Interface
+- 💻 Console Table Logging
+- 🔄 Reset Functionality
+
+---
+
+# 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- jQuery 3.7.1
+- Regular Expressions (Regex)
+- Visual Studio Code
+- Live Server
+
+---
+
+# 📂 Project Structure
+
+```
+JQUERY-MOBILE-VALIDATION
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── assets
+    └── screenshots
+        ├── Home.png
+        ├── Valid.png
+        ├── Invalid.png
+        ├── Dashboard.png
+        ├── Console.png
+        └── VSCode.png
+```
+
+---
+
+# 📋 Validation Rules
+
+✔ Mobile number must contain exactly **10 digits**
+
+✔ First digit should start with:
+
+- 6
+- 7
+- 8
+- 9
+
+✔ Only numeric characters are allowed.
+
+✔ Special characters are not allowed.
+
+✔ Spaces are not allowed.
+
+✔ Alphabetic characters are not allowed.
+
+---
+
+# 📊 Validation Dashboard
+
+The application displays:
+
+- Validation Status
+- Mobile Operator (Demo)
+- Country
+- Validation Method
+- Date & Time of Validation
+
+---
+
+# 📶 Operator Detection (Demo)
+
+| Prefix | Operator |
+|---------|-----------|
+| 98, 99 | Airtel |
+| 97, 96 | Vi |
+| 95, 94 | BSNL |
+| 91, 92, 93 | Jio |
+| 89, 90 | Reliance |
+
+> **Note:** Operator detection is based on sample prefix mapping for demonstration purposes only.
+
+---
+
+# 📸 Project Screenshots
+
+### 🏠 Home Page
+
+*(Add Home.png here)*
+
+---
+
+### ✅ Valid Mobile Number
+
+*(Add Valid.png here)*
+
+---
+
+### ❌ Invalid Mobile Number
+
+*(Add Invalid.png here)*
+
+---
+
+### 📊 Validation Dashboard
+
+*(Add Dashboard.png here)*
+
+---
+
+### 💻 Console Output
+
+*(Add Console.png here)*
+
+---
+
+### 🖥️ VS Code Project
+
+*(Add VSCode.png here)*
+
+---
+
+# ▶️ How to Run
+
+1. Download or Clone the repository.
+
+2. Open the project folder in Visual Studio Code.
+
+3. Install **Live Server** Extension.
+
+4. Right-click **index.html**.
+
+5. Click **Open with Live Server**.
+
+6. Enter an Indian Mobile Number.
+
+7. Observe the validation result.
+
+---
+
+# 🧪 Sample Test Cases
+
+## ✅ Valid Numbers
+
+```
+9876543210
+9123456789
+8765432109
+7894561230
+```
+
+---
+
+## ❌ Invalid Numbers
+
+```
+1234567890
+5678901234
+98765
+abcdefghij
+98@6543210
+```
+
+---
+
+# 💡 Concepts Used
+
+- HTML Forms
+- CSS Styling
+- Responsive Web Design
+- JavaScript
+- jQuery Library
+- DOM Manipulation
+- Event Handling
+- Form Validation
+- Regular Expressions
+- Console Methods
+
+---
+
+# 🎯 Learning Outcomes
+
+After completing this project, you will understand:
+
+- How jQuery simplifies JavaScript programming.
+- How Regular Expressions validate user input.
+- Real-time input validation.
+- DOM manipulation using jQuery.
+- Form validation techniques.
+- Responsive UI development.
+- Event handling in jQuery.
+
+---
+
+# 📌 Future Improvements
+
+- 🌙 Dark Mode
+- 🌍 Country Code Selector
+- 📋 Copy Mobile Number
+- 💾 Local Storage Support
+- 📈 Validation History
+- 🔔 Toast Notifications
+- 📱 Multiple Country Validation
+- 🌐 API-Based Mobile Verification
+
+---
+
+# 👨‍💻 Developed By
+
+**Jay Yende**
+
+B.Tech Computer Science Engineering
+
+Symbiosis Institute of Technology, Nagpur
+
+---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more useful projects.
+
+---
+
+## 📜 License
+
+This project is created for educational and learning purposes.
+
+MIT License © 2026 Jay Yende
