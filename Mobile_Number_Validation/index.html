@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Professional Mobile Number Validation using jQuery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            Mobile Number Validation
+        </h1>
+
+        <p class="subtitle">
+            Validate Indian Mobile Numbers using jQuery
+        </p>
+
+        <hr>
+
+        <label>
+            Enter Mobile Number
+        </label>
+
+        <input
+            type="text"
+            id="mobile"
+            maxlength="10"
+            placeholder="Enter 10-digit Mobile Number">
+
+        <div class="buttons">
+
+            <button id="validateBtn">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Validate
+
+            </button>
+
+            <button id="resetBtn">
+
+                <i class="fa-solid fa-rotate-left"></i>
+
+                Reset
+
+            </button>
+
+        </div>
+
+        <div id="result"></div>
+
+        <div id="dashboard">
+
+            <div class="card">
+
+                <h3>
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    Validation Details
+
+                </h3>
+
+                <table>
+
+                    <tr>
+
+                        <td>Status</td>
+
+                        <td id="status">-</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Operator</td>
+
+                        <td id="operator">-</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Country</td>
+
+                        <td id="country">India (+91)</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Validation Type</td>
+
+                        <td>Regex + jQuery</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Validated At</td>
+
+                        <td id="time">-</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <div class="tips">
+
+            <h3>
+
+                <i class="fa-solid fa-lightbulb"></i>
+
+                Validation Rules
+
+            </h3>
+
+            <ul>
+
+                <li>Only digits are allowed.</li>
+
+                <li>Mobile number must contain exactly 10 digits.</li>
+
+                <li>First digit should be 6, 7, 8 or 9.</li>
+
+                <li>Live validation while typing.</li>
+
+                <li>Operator detection based on prefix.</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
