@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+    color: #222;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+    text-align: center;
+    padding: 28px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+
+/* Control Panel */
+
+.control-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.control-panel h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.control-panel p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+/* Buttons */
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+#fetchBtn {
+    background: #1769e0;
+}
+
+#jqueryBtn {
+    background: #e91e63;
+}
+
+#clearBtn {
+    background: #555;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+
+/* Message */
+
+.message {
+    margin: 20px 0;
+    padding: 15px 18px;
+    background: #d9edf7;
+    border-left: 5px solid #2196f3;
+    border-radius: 8px;
+    color: #145374;
+    font-weight: bold;
+}
+
+
+/* Table Section */
+
+.table-section {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Table Header */
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.table-header h2 {
+    margin-bottom: 5px;
+}
+
+#recordCount {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/* Table */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 850px;
+}
+
+thead {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+}
+
+th {
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+tbody tr:hover {
+    background: #f5f5f5;
+}
+
+
+/* Empty Table */
+
+.empty {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+
+
+/* Footer */
+
+footer {
+    background: #0b1628;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .control-panel,
+    .table-section {
+        padding: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
