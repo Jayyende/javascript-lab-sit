@@ -1,0 +1,101 @@
+# Exp-9 — Theme Preference Manager using localStorage & sessionStorage
+
+A JavaScript-based web application that demonstrates how to use **localStorage** and **sessionStorage** to store and manage user preferences.
+
+The project focuses on implementing a **theme preference system** where the selected theme is saved using browser storage and restored when required.
+
+---
+
+## 📌 Experiment No.
+
+**Experiment 9**
+
+## 🎯 Aim
+
+To implement **localStorage** and **sessionStorage** in JavaScript to save and manage user preferences such as **theme settings**.
+
+---
+
+## 📝 Problem Statement
+
+Implement localStorage and sessionStorage to save user preferences like theme settings.
+
+---
+
+## 📖 Description
+
+This experiment demonstrates browser-side data storage using:
+
+- **localStorage**
+- **sessionStorage**
+
+The application allows the user to select different themes and stores the selected theme preference in the browser.
+
+The project demonstrates the difference between persistent storage using `localStorage` and session-based storage using `sessionStorage`.
+
+The selected theme can be applied dynamically without reloading the page.
+
+---
+
+## ✨ Features
+
+- 🎨 Multiple theme options
+- 💾 Save theme using `localStorage`
+- 🕐 Store session theme using `sessionStorage`
+- 🔄 Restore saved preferences
+- ⚡ Dynamic theme switching
+- 🖥️ Responsive user interface
+- 🌐 Runs directly in a web browser
+- 🔍 Browser Developer Console demonstration using F12
+- 🚫 No database required
+- 📦 No external backend required
+
+---
+
+## 🎨 Available Themes
+
+The application provides three different theme options:
+
+### 1. Light Theme
+
+A clean and bright interface suitable for normal daytime usage.
+
+### 2. Dark Theme
+
+A darker interface designed for comfortable viewing in low-light conditions.
+
+### 3. Blue Theme
+
+A customized blue interface demonstrating another user preference.
+
+---
+
+# 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Browser localStorage API
+- Browser sessionStorage API
+- DOM Manipulation
+- Browser Developer Tools
+
+---
+
+# 📂 Project Structure
+
+```text
+Exp-9-Theme-Storage/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   └── screenshots/
+│       ├── Light_Theme.png
+│       ├── Dark_Theme.png
+│       ├── Blue_Theme.png
+│       └── F12_Console.png
+│
+└── README.md
