@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Theme Preference Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>⚙️ Theme Preference Manager</h1>
+
+            <p>
+                Save user preferences using localStorage and sessionStorage
+            </p>
+        </div>
+
+
+        <div class="card">
+
+            <h2>🎨 Choose Your Theme</h2>
+
+            <p class="description">
+                Select a theme. Your preference will be saved using
+                localStorage.
+            </p>
+
+
+            <div class="theme-buttons">
+
+                <button id="lightBtn" class="theme-btn light-btn">
+                    ☀️ Light Theme
+                </button>
+
+                <button id="darkBtn" class="theme-btn dark-btn">
+                    🌙 Dark Theme
+                </button>
+
+                <button id="blueBtn" class="theme-btn blue-btn">
+                    💙 Blue Theme
+                </button>
+
+            </div>
+
+
+            <div class="status-box">
+
+                <h3>📦 Storage Information</h3>
+
+                <p>
+                    <strong>localStorage Theme:</strong>
+                </p>
+
+                <p id="localStorageValue">
+                    No theme saved
+                </p>
+
+
+                <p>
+                    <strong>sessionStorage Session:</strong>
+                </p>
+
+                <p id="sessionStorageValue">
+                    No session data
+                </p>
+
+            </div>
+
+
+            <div class="actions">
+
+                <button id="clearLocalBtn" class="clear-btn">
+                    🗑️ Clear Saved Theme
+                </button>
+
+                <button id="clearSessionBtn" class="session-btn">
+                    🔄 Clear Session
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <h2>💡 How Storage Works</h2>
+
+            <div class="info-item">
+
+                <h3>localStorage</h3>
+
+                <p>
+                    Stores data in the browser even after refreshing
+                    or closing the browser.
+                </p>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <h3>sessionStorage</h3>
+
+                <p>
+                    Stores data only for the current browser session.
+                    It is removed when the session ends.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div id="message" class="message"></div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            JavaScript Lab – Experiment 9
+        </p>
+
+        <p>
+            localStorage & sessionStorage
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
