@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Experiment 10 - JSON Data Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>📊 JSON Data Explorer</h1>
+        <p>
+            Load and display JSON data using Fetch API and jQuery $.getJSON()
+        </p>
+    </header>
+
+
+    <main class="container">
+
+        <section class="control-panel">
+
+            <h2>JSON Data Loader</h2>
+
+            <p>
+                Select a method to load JSON data dynamically.
+            </p>
+
+            <div class="buttons">
+
+                <button id="fetchBtn">
+                    🔄 Load using Fetch()
+                </button>
+
+                <button id="jqueryBtn">
+                    ⚡ Load using $.getJSON()
+                </button>
+
+                <button id="clearBtn">
+                    🗑 Clear Table
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="message" class="message">
+            Select a method above to load JSON data.
+        </section>
+
+
+        <section class="table-section">
+
+            <div class="table-header">
+
+                <div>
+                    <h2>👥 User Data</h2>
+                    <p id="recordCount">No records loaded</p>
+                </div>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Website</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="userTableBody">
+
+                        <tr>
+                            <td colspan="6" class="empty">
+                                No JSON data loaded yet.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            JavaScript Lab - Experiment 10
+        </p>
+
+        <p>
+            JSON Data Loading using Fetch API & jQuery
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
